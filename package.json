@@ -1,0 +1,24 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js --timeout=60000",
+    "test1": "mocha test/cart.spec.js --timeout=60000",
+    "test2": "mocha test/getBrandItems.spec.js",
+    "test3": "mocha test/search.spec.js",
+    "test4": "mocha test/filterPrice.spec.js",
+    "test5": "mocha test/colourFilter.spec.js --timeout=60000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^16.0.3",
+    "mocha": "^6.2.0",
+    "mocha-logger": "^1.0.8",
+    "selenium-webdriver": "4.2.0"
+  }
+}
