@@ -1,5 +1,5 @@
 const logger = require("../logger/logger");
-const BasePage = require("./basePage");
+const BasePage = require("./BasePage");
 const CartPage = require("./cartPage");
 
 const itemPriceLocator = `//p[@class='ltr-194u1uv-Heading e54eo9p0']`

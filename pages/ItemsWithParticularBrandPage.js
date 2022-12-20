@@ -1,5 +1,5 @@
 const logger = require("../logger/logger");
-const BasePage = require("./basePage");
+const BasePage = require("./BasePage");
 
 const brandItemsLocator = `//p[@data-component='ProductCardBrandName']`
 

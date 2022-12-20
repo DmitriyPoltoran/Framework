@@ -1,4 +1,4 @@
-const BasePage = require("./basePage");
+const BasePage = require("./BasePage");
 const ItemsPage = require("./ItemsWithParticularBrandPage")
 const logger = require("../logger/logger");
 

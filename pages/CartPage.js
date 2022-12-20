@@ -1,4 +1,4 @@
-const BasePage = require("./basePage");
+const BasePage = require("./BasePage");
 const logger = require("../logger/logger");
 
 

@@ -1,6 +1,6 @@
 const logger = require("../logger/logger");
 const { parsePrice } = require("../utils/utils");
-const BasePage = require("./basePage");
+const BasePage = require("./BasePage");
 
 const pricesLocator = `//p[@data-component='Price']`
 const colourLocator = `//p[@data-testid='colourHeader']`
