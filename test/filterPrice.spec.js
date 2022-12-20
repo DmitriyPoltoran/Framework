@@ -39,7 +39,7 @@ describe('Testing prices filter.', () =>
         await sneakersPage.openPage(this.priceUpUrl);
 
 
-        const prices = await sneakersPage.getBrandItems();
+        const prices = await sneakersPage.getPrices();
 
         expect(prices).to.eql(sneakersPage.getSortedPrices(prices, 'increase'));
         console.log(await this.driver.getCurrentUrl())
