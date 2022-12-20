@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const BrandsPage = require('../pages/brandsPage');
+const BrandsPage = require('../pages/BrandsPage');
 const TestDataReader = require("../services/TestDataReader");
 const { TESTCASE_TIMEOUT } = require("../utils/constants");
 const DriverSingleton = require("../driver/Driver");

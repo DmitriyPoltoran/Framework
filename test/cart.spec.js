@@ -5,7 +5,7 @@ const WatchPage = require("../pages/WatchPage");
 const { TESTCASE_TIMEOUT } = require("../utils/constants");
 
 const TestDataReader = require('../services/TestDataReader');
-const CartPage = require('../pages/cartPage');
+const CartPage = require('../pages/CartPage');
 const logger = require('../logger/logger');
 const { makeScreenshot } = require('../utils/utils');
 
