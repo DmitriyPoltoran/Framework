@@ -42,7 +42,6 @@ describe('Testing prices filter.', () =>
         const prices = await sneakersPage.getPrices();
 
         expect(prices).to.eql(sneakersPage.getSortedPrices(prices, 'increase'));
-        console.log(await this.driver.getCurrentUrl())
 
     }).timeout(TESTCASE_TIMEOUT);
 
